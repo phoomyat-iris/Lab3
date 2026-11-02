@@ -3,7 +3,7 @@ print("Lab 3 - Software Unit Testing with PyTest")
 SORT_ASCENDING = 0
 SORT_DESCENDING = 1
 
-
+# Sorts fewer than 10 integers; returns 0, 1 or 2 for invalid input (REQ-03 to REQ-05)
 def bubble_sort(arr, sorting_order):
 
     # Copy input list to results list
@@ -63,4 +63,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
